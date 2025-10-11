@@ -1,0 +1,33 @@
+# Python Bot Dependencies
+# Diambil dari 'import' statements dalam vee.py dan auto_restart.py
+
+# Telegram Bot API Wrapper
+python-telegram-bot
+
+# YouTube Downloader
+yt-dlp
+
+# Speech Recognition & Audio Processing
+speechrecognition
+pydub
+
+# Text-to-Speech
+gTTS
+
+# Environment Variables
+python-dotenv
+
+# Colored Terminal Output
+colorama
+
+# File System Monitoring (untuk auto_restart.py)
+watchdog
+
+# HTTP Client (untuk Gemini API - biasanya diinstal oleh requests/python-telegram-bot,
+# tapi disebutkan secara eksplisit karena digunakan secara langsung/implisit)
+requests
+
+# Tambahan (Implisit dari penggunaan pydub, umumnya dibutuhkan untuk audio)
+# Harap pastikan FFmpeg terinstal di sistem/server hosting Anda, 
+# karena ini adalah dependensi eksternal, bukan paket pip.
+# ffmpeg
